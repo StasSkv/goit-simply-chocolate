@@ -24,35 +24,54 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <div class="header-container-logo">
-          <a href="./index.html" class="header-logo-text"
-            ><span>SIMPLY </span>CHOCOLATE</a
-          >
-          <img
-            src="./images/header/vector.jpg"
-            alt="logo"
-            width="24"
-            class="header-logo-image"
-          />
-        </div>
+        <a href="./index.html" class="header-logo-text">
+          <span>SIMPLY</span>CHOCOLATE
+          <svg class="header-logo-svg" width="24" height="24">
+            <use href="./images/icons.svg#icon-chocolate"> </use>
+          </svg>
+        </a>
 
-        <nav class="header-navigation">
-          <ul class="header-navigation-list">
-            <li class="header-navigation-item">
-              <a href="./index.html" class="header-navigation-link">Home</a>
+       <div class="header-nav-plus-soc">
+          <nav class="header-navigation">
+            <ul class="header-navigation-list">
+              <li class="header-navigation-item">
+                <a href="./index.html" class="header-navigation-link">Home</a>
+              </li>
+              <li class="header-navigation-item">
+                <a href="" class="header-navigation-link">How it’s made?</a>
+              </li>
+              <li class="header-navigation-item">
+                <a
+                  href=""
+                  class="header-navigation-link header-navigation-link-end"
+                  >Chocolate is loved</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-icons-list">
+            <li class="header-icons-item">
+              <a class="header-icons-link" href="">
+                <svg class="header-icons-svg" width="24" height="24">
+                  <use
+                    class="header-icons-road"
+                    href="./images/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
             </li>
-            <li class="header-navigation-item">
-              <a href="" class="header-navigation-link">How it’s made?</a>
-            </li>
-            <li class="header-navigation-item">
-              <a
-                href=""
-                class="header-navigation-link header-navigation-link-end"
-                >Chocolate is loved</a
-              >
+            <li class="header-icons-item">
+              <a class="header-icons-link" href="">
+                <svg class="header-icons-svg" width="24" height="24">
+                  <use
+                    class="header-icons-road"
+                    href="./images/icons.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </nav>
+       </div>
       </div>
     </header>
 
@@ -63,9 +82,17 @@
             Treat yourself or a loved one to our finest ingredients for a moment
             of pure delight!
           </h1>
-          <button type="button" class="visit-button">Buy now</button>
-          <a href="#made-id" class="visit-link-made">How it’s made</a>
-          <a href="" class="visit-link-scroll">scroll down</a>
+         <div class="visit-wrap-btn">
+            <button type="button" class="visit-button">Buy now</button>
+            <a href="#made-id" class="visit-link-made">How it’s made</a>
+            <a href="#loved" class="visit-link-scroll">scroll down  
+              <svg class="visit-scrol" width="22" height="22" >
+                  <use class="visit-scrol-use" href="./images/icons.svg#icon-angle-small">
+                  </use>
+                </svg>
+            </a>
+         </div>
+      
         </div>
       </section>
 
@@ -74,6 +101,9 @@
           <h2 class="about-title visually-hidden">About us</h2>
           <ul class="about-list">
             <li class="about-list-item">
+              <svg class="about-list-icon">
+                <use href="./images/icons.svg#icon-fluent" class="about-list-icon-road"></use>
+              </svg>
               <h3 class="about-list-subtitle">Unsurpassed taste</h3>
               <p class="about-list-text">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -83,6 +113,9 @@
               </p>
             </li>
             <li class="about-list-item">
+              <svg class="about-list-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-Coin" class="about-list-icon-road"></use>
+              </svg>
               <h3 class="about-list-subtitle">Affordable price</h3>
               <p class="about-list-text">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -93,6 +126,9 @@
               </p>
             </li>
             <li class="about-list-item">
+              <svg class="about-list-icon" width="32" height="32">
+                <use href="./images/icons.svg#icon-spoon" class="about-list-icon-road"></use>
+              </svg>
               <h3 class="about-list-subtitle">Own production</h3>
               <p class="about-list-text">
                 We take pride in our own production process, ensuring that every
@@ -124,6 +160,16 @@
                 width="206"
                 class="taste-image"
               />
+              <div class="overlay">
+                <h2 class="overlay-title">
+                Milk chocolate
+                </h2>
+                <button type="button" class="overlay-btn">chocolate</button>
+                <a href="" class="over-link">the benefits</a>
+                <p class="overlay-text">
+                  Milk chocolate is a solid chocolate confectionery containing cocoa, sugar and milk. It is the most consumed type of chocolate. Chocolate was originally sold and consumed as a beverage in pre-Columbian times. Although four-fifths of all milk chocolate is sold in the United States and Europe.
+                </p>
+              </div>
               <h3 class="taste-subtitle taste-subtitle-first">
                 mILK CHOCOLATE
               </h3>
@@ -135,6 +181,16 @@
                 width="206"
                 class="taste-image"
               />
+              <div class="overlay">
+                <h2 class="overlay-title">
+                Milk
+                </h2>
+                <button type="button" class="overlay-btn">milk </button>
+                <a href="" class="over-link">the benefits</a>
+                <p class="overlay-text">
+                Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for young mammals (including breastfed human infants) before they are able to digest solid food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune system.
+                </p>
+              </div>
               <h3 class="taste-subtitle">Milk</h3>
             </li>
             <li class="taste-item taste-item-third">
@@ -144,6 +200,16 @@
                 width="206"
                 class="taste-image"
               />
+              <div class="overlay">
+                <h2 class="overlay-title">
+                Nuts
+                </h2>
+                <button type="button" class="overlay-btn">nuts</button>
+                <a href="" class="over-link">the benefits</a>
+                <p class="overlay-text">
+                 Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart disease. They’re a good source of fiber, healthy fats, and plant protein. Plus, they’re great on their own.
+                </p>
+              </div>
               <h3 class="taste-subtitle taste-subtitle-third">nuts</h3>
             </li>
             <li class="taste-item">
@@ -153,6 +219,16 @@
                 width="206"
                 class="taste-image"
               />
+              <div class="overlay">
+                <h2 class="overlay-title">
+                semi - sweet chocolate
+                </h2>
+                <button type="button" class="overlay-btn">sweet chocolate</button>
+                <a href="" class="over-link">the benefits</a>
+                <p class="overlay-text">
+                 Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an understanding of this type of chocolate is to compare it to a different type of chocolate. Semisweet is darker than milk chocolate. In a taste comparison, it has a slightly bitter taste whereas milk chocolate is sweeter and more mellow. 
+                </p>
+              </div>
               <h3 class="taste-subtitle">sEMI - SWEET CHOCOLATE</h3>
             </li>
           </ul>
@@ -211,7 +287,7 @@
         </div>
       </section>
 
-      <section class="loved">
+      <section class="loved" id="loved">
         <div class="container">
           <h2 class="loved-title"><span>chocolate</span> is loved</h2>
           <ul class="loved-list">
@@ -277,7 +353,7 @@
                 >
               </li>
               <li class="footer-contakt-item">
-                <a href="simplycthoc@gmail.com" class="footer-contakt-link"
+                <a href="mailto:simplycthoc@gmail.com" class="footer-contakt-link"
                   >simplycthoc@gmail.com</a
                 >
               </li>
